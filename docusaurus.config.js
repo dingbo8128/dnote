@@ -30,7 +30,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/dingbo8128/boding.bezalelit.com/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,6 +55,7 @@ const config = {
             position: 'left',
             label: 'Note',
           },
+          {to: 'blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/dingbo8128/boding.bezalelit.com',
             label: 'GitHub',
