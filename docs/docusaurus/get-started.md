@@ -1,12 +1,30 @@
+# Get Started
+
 ---
+sidebar_position: 1
+---
+
+## Commands
+
+### start
+
+```
+yarn start -p 4000
+```
+
+## Create Doc
+
+### Configure the Sidebar
+
+
+```md title="docs/hello.md" {1-4}
+---
+sidebar_label: 'Hi!'
 sidebar_position: 3
 ---
+```
 
-# Create a Blog Post
-
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
-
-## Create your first Post
+## Create Blog
 
 Create a file at `blog/2021-02-28-greetings.md`:
 
@@ -25,10 +43,3 @@ authors:
     image_url: https://github.com/slorber.png
 tags: [greetings]
 ---
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
