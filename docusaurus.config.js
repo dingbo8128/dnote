@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "漫不经心的技术笔记",
-  tagline: "敬畏耶和华是智慧的开端",
+  title: "-",
+  tagline: "-",
   url: "https://dingbo.wozai.fun",
   baseUrl: "/",
   onBrokenLinks: "throw",
