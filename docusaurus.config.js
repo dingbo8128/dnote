@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "BoDing 的技术笔记",
-  tagline: "永不熄灭的技术热情， 源于对上帝的信仰",
-  url: "https://boding.bezalelit.com",
+  title: "漫不经心的技术笔记",
+  tagline: "敬畏耶和华是智慧的开端",
+  url: "https://dingbo.wozai.fun",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/boding_icon.jpg",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "dingbo8128", // Usually your GitHub org/user name.
+  projectName: "dingbo.wozai.fun", // Usually your repo name.
 
   presets: [
     [
@@ -67,7 +67,7 @@ const config = {
       footer: {
         style: "light",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} boding.bezalelit.com. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} dingbo.wozai.fun. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

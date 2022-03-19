@@ -1,7 +1,6 @@
 ---
 title: 文档 markdown 规范
 authors: [boding]
-tags: [TDengine]
 ---
 
 ```md

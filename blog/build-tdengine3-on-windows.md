@@ -1,16 +1,18 @@
 ---
 title: Build TDengine 3.0 branch on Windows
 authors: [boding]
-tags: [TDengine]
 ---
 
 ## Get the Source Code
+
 ```
 git clone https://github.com/taosdata/TDengine.git
 cd TDengine
 git submodule update --init --recursive
 ```
+
 ## Build
+
 1. search for "Command Prompt" and choose "x64 Native Tools Command Prompt for VS 2022".
 2. cd to source code.
 3. `mkdir debug && cd debug`
