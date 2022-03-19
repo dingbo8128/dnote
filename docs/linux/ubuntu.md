@@ -1,12 +1,8 @@
----
-title: ubuntu
-date: 2021-07-28 08:25:40
+# ubuntu
 
-categories: linux
----
+## ufw
 
-{% blockquote %}
-{% endblockquote %}
+
 
 ## 添加用户
 

@@ -1,10 +1,3 @@
----
-title: Linux Note 2108
-date: 2021-07-27 14:24:30
-tag: linux
-categories: linux
----
-
 ## 微脚本
 
 * 批量解压zip文件
