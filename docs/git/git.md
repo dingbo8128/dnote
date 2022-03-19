@@ -62,6 +62,29 @@ jobs:
           echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
 ```
 
+## contrib
+
+```bash
+git clone git@github.com:YOURNAME/TDengine.git
+git remote add upstream https://github.com/taosdata/TDengine
+git remote -v
+git fetch upstream
+git branch -va
+git checkout master
+git merge upstream/master
+
+git branch fix-xxx
+git checkout fix-xxx
+
+git commit -m "fix tdengine bug x"
+git fetch upstream
+git checkout master
+git merge upstream/master
+git checkout fix-xxx
+git rebase master
+git push origin HEAD
+```
+
 ## 参考
 
 https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
