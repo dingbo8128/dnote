@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "-",
-  tagline: "-",
-  url: "https://dingbo.wozai.fun",
+  title: "DNote",
+  tagline: "free note",
+  url: "https://dnote.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -24,14 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/dingbo8128/boding.bezalelit.com/edit/main/",
+          editUrl: "https://github.com/dingbo8128/dnote/edit/main/",
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/dingbo8128/boding.bezalelit.com/edit/main/",
+          editUrl: "https://github.com/dingbo8128/dnote/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,7 +56,7 @@ const config = {
           },
           { to: "blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/dingbo8128/boding.bezalelit.com",
+            href: "https://github.com/dingbo8128/dnote",
             label: "GitHub",
             position: "right",
           },
@@ -67,7 +65,7 @@ const config = {
       footer: {
         style: "light",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} dingbo.wozai.fun. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} dnote.vercel.app. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -75,25 +73,25 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
-  
+        appId: "QDT7D94ACN",
+
         // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
-  
-        indexName: 'YOUR_INDEX_NAME',
-  
+        apiKey: "af703a2bf95628015a53349951d32350",
+
+        indexName: "dnote_love_god",
+
         // Optional: see doc section below
         contextualSearch: true,
-  
+
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-  
+        externalUrlRegex: "external\\.com|domain\\.com",
+
         // Optional: Algolia search parameters
         searchParameters: {},
-  
+
         // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-  
+        searchPagePath: "search",
+
         //... other Algolia params
       },
     }),
