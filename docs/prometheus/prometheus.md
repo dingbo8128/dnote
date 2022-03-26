@@ -9,8 +9,6 @@ categories: Prometheus
 
 You will not really understand it until try it.
 
-![](https://upload-images.jianshu.io/upload_images/4052244-8e0cea93cdbb44c1.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
-
 ## Download and Unzip
 
 https://prometheus.io/download/
