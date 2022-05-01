@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/boding_icon.jpg",
   organizationName: "dingbo8128", // Usually your GitHub org/user name.
-  projectName: "dingbo.wozai.fun", // Usually your repo name.
+  projectName: "dnote.vercel.app", // Usually your repo name.
 
   presets: [
     [
@@ -41,6 +41,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      autoCollapseSidebarCategories: true,
+      hideableSidebar: true,
       navbar: {
         title: "BoDing",
         logo: {
