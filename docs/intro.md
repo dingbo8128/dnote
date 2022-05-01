@@ -1,8 +1,9 @@
 ---
-sidebar_label: 简介
+sidebar_label: 笔记地图
 sidebar_position: 1
 ---
 
-# Intro
+# 笔记地图
+
 
 
