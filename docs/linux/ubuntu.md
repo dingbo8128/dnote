@@ -22,6 +22,12 @@ apt update
 apt install python3.9
 ```
 
+## 安装 pthread manual
+
+```
+sudo apt-get install manpages-posix manpages-posix-dev
+```
+
 ## aliyun source
 
 ```/etc/apt/sources.list
