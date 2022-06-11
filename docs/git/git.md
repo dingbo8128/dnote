@@ -11,3 +11,11 @@ git diff branch1 brnch2 -- filepath
 ```
 git update-index --chmod=+x script.sh
 ```
+
+## Prune
+
+solve error: cannot lock ref
+
+```
+git remote prune origin
+```
