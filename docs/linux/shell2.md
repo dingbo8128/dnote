@@ -42,12 +42,6 @@ while [[ $tmpdate < $today || $tmpdate == $today ]]; do
 done 
 ```
 
-## Vim
-
-### 多行注释
-
-Ctrl + v 选则多行， shift + I进入插入模式，esc退出多行编辑
-
 ## rpm
 
 ### 查询已安装包
@@ -70,4 +64,25 @@ rpm -ivh package-name
 awk '{a+=$1}END{print a}'
 ```
 
-## 参考
+## 搜索历史命令
+
+Ctrl + r
+
+## sudo
+
+* -E: 用户可以在sudo执行时保留当前用户已存在的环境变量，不会被sudo重置
+
+## apt 
+
+1. 自动修复依赖关系：`apt install -f`
+2. 更新系统存储库索引： `apt update`
+
+## dpkg 
+
+1. 安装本地deb包: `dpkg -i xxx.deb`
+
+## netstat
+
+```
+netstat -ntlp
+```

@@ -5,6 +5,10 @@ date: 2021-10-27 10:57:42
 categories: tool
 ---
 
+## 获取 root 权限保存
+
+`:w !sudo tee %`
+
 ## 分割窗口
 
 :vsplit
@@ -45,3 +49,6 @@ set autoindent
 - 取消： set nu!
 
 ## 多行注释
+
+
+Ctrl + v 选则多行， shift + I进入插入模式，esc退出多行编辑

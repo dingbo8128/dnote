@@ -5,12 +5,6 @@ date: 2021-05-18 14:24:30
 categories: linux
 ---
 
-## vim
-
-### 获取 root 权限保存
-
-`:w !sudo tee %`
-
 ## 脚本
 
 ### centos8 添加防火墙开放端口
