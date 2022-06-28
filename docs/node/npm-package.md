@@ -5,9 +5,7 @@ date: 2021-09-06 09:33:50
 categories: node
 ---
 
-{% blockquote %}
 Blessed be the name of God for ever and ever, to whom belong wisdom and might.
-{% endblockquote %}
 
 ## 注册 npm 账号
 
