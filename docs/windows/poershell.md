@@ -5,9 +5,19 @@ date: 2021-10-25 06:46:10
 categories: windows
 ---
 
-{% blockquote %}
-你们看天上的飞鸟，也不种，也不收，也不积蓄在仓里，你们的天父尚且养活牠。你们不比飞鸟贵重得多吗？
-{% endblockquote %}
+## 代理
+
+### 添加代理端口
+
+```
+netsh interface portproxy add v4tov4 listenport=6041 listenaddress=0.0.0.0 connectport=6041 connectaddress=localhost
+```
+
+### 显示代理端口
+
+```
+netsh interface portproxy show all
+```
 
 ## 更改脚本执行策略
 
