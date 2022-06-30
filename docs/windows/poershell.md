@@ -10,13 +10,19 @@ categories: windows
 ### 添加代理端口
 
 ```
-netsh interface portproxy add v4tov4 listenport=6041 listenaddress=0.0.0.0 connectport=6041 connectaddress=localhost
+netsh interface portproxy add v4tov4 listenport=6041 listenaddress=192.168.101.117 connectport=6041 connectaddress=localhost
 ```
 
 ### 显示代理端口
 
 ```
 netsh interface portproxy show all
+```
+
+### 删除
+
+```
+netsh interface portproxy delete v4tov4 listenport=6041 listenaddress=192.168.101.117
 ```
 
 ## 更改脚本执行策略
