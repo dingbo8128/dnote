@@ -4,6 +4,7 @@
 
 ### ubuntu
 ```
+git submodule update --init --recursive
 sudo apt-get install build-essential libjansson-dev libsnappy-dev liblzma-dev libz-dev pkg-config
 mkdir build
 cmake .. -DBUILD_TOOLS=true  -DBUILD_HTTP=false
