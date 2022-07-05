@@ -1,0 +1,6 @@
+# maven
+
+
+```
+mvn package -DskipTests
+```

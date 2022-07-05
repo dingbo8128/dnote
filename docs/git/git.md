@@ -19,3 +19,14 @@ solve error: cannot lock ref
 ```
 git remote prune origin
 ```
+
+## Stash
+
+```
+git stash drop
+```
+
+```
+git stash clear
+```
+
