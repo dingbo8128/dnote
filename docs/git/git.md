@@ -1,5 +1,13 @@
 # Git
 
+## 忽略变化
+
+```
+git update-index --assume-unchanged filename
+git update-index --no-assume-unchanged filename
+
+```
+
 ## Compare branch
 
 ```
@@ -30,3 +38,8 @@ git stash drop
 git stash clear
 ```
 
+## remote
+
+```
+git remote remove origin
+```
