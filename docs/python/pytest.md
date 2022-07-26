@@ -33,6 +33,12 @@ tests/
     ...
 ```
 
+## Run
+
+```
+pytest -s test_rest_connection.py::test_local_timezone
+```
+
 ## Ref
 
 https://docs.pytest.org/
