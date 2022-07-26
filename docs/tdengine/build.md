@@ -2,6 +2,13 @@
 
 ## build
 
+### windows
+```
+cmd
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat
+
+```
+
 ### ubuntu
 ```
 git submodule update --init --recursive
