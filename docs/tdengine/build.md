@@ -14,7 +14,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvar
 git submodule update --init --recursive
 sudo apt-get install build-essential libjansson-dev libsnappy-dev liblzma-dev libz-dev pkg-config
 mkdir build
-cmake .. -DBUILD_TOOLS=true  -DBUILD_HTTP=false
+cmake .. -DBUILD_TOOLS=true -DBUILD_HTTP=false -DWEBSOCKET=true
 go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 make -j 12
