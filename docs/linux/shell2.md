@@ -1,5 +1,10 @@
 ## 微脚本
 
+* 压缩
+  `tar -Jcf file.tar.xz dir`
+* 解压缩
+  `tar -xf file.tar.xz -C dir`
+
 * 批量解压zip文件
    `ls *.zip | xargs -n1 unzip`
 * 压缩一个目录 
