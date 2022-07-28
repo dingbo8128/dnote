@@ -1,5 +1,11 @@
 # Git
 
+## 默认编辑器
+
+```
+git config --global core.editor vim
+```
+
 ## 忽略变化
 
 ```
